@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(170, 145, 145);
+}
+
+h1 {
+    color:rgb(12, 11, 11);
+    font-size: 50px;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: auto;
+}
+
+.tile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 0 0 1px;
+    border: 3px solid;
+    cursor: pointer;
+    font-size: 60px;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    color:rgb(12, 11, 11);
+    font-size: 30px;
+}

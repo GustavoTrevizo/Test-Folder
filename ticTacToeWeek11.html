@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1 class="title">Tic Tac Toe!</h1>
+    <br> <br>
+    <div class="game">
+        <div data-index="1" class="tile"></div>
+        <div data-index="2" class="tile"></div>
+        <div data-index="3" class="tile"></div>
+        <div data-index="4" class="tile"></div>
+        <div data-index="5" class="tile"></div>
+        <div data-index="6" class="tile"></div>
+        <div data-index="7" class="tile"></div>
+        <div data-index="8" class="tile"></div>
+        <div data-index="9" class="tile"></div>
+    </div>
+
+    <div id="game-over-area" class="hidden">
+        <h2 id="game-over-text">Winner is X</h2>
+        <button id="restart-game">Restart Game</button>
+    </div>
+
+
+    <script src="ticTacToeWeek11.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
